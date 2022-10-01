@@ -1,1 +1,1 @@
-# morse-translator.github.io
+# https://z-crow.github.io/morse-translator.github.io/
