@@ -1,17 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Poppins&display=swap");
+
+:root {
+    --black: #252525;
+    --second-color: rgb(114, 153, 251);
+}
+
 body {
     font-weight: 600;
     color: white;
     align-content: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    background-color: black;
+    background-color: var(--black);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 h2 {
-    border-top: 2px solid rgb(86, 60, 140);
+    border-top: 2px solid var(--second-color);
     width: 80%;
 }
 
@@ -37,11 +45,12 @@ input {
 }
 #text-output {
     font-size: 1.6rem;
-    background-color: rgb(86, 60, 140);
+    background-color: var(--second-color);
     min-width: 350px;
     min-height: 20px;
     max-width: 350px;
     height: auto;
+    border: 2px solid white;
     color: white;
     word-break: break-all;
 }
@@ -55,12 +64,12 @@ button {
 }
 
 button:active {
-    background-color: rgba(131, 85, 255, 0.8);
+    background-color: var(--second-color);
     color: white;
 }
 
 .morse-text h2 {
-    border-top: 2px solid rgb(86, 60, 140);
+    border-top: 2px solid var(--second-color);
     margin-top: 25px;
 }
 
@@ -75,10 +84,11 @@ button:active {
 
 #morse-output {
     font-size: 1.6rem;
-    background-color: rgb(86, 60, 140);
+    background-color: var(--second-color);
     min-width: 350px;
     min-height: 20px;
     max-width: 350px;
+    border: 2px solid white;
     height: auto;
     color: white;
     word-break: break-all;
